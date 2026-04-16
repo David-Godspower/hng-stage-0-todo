@@ -52,7 +52,12 @@
         </ul>
 
         <div class="flex items-center justify-between pt-6 border-t border-slate-50">
-            <button data-testid="test-todo-edit-button" onclick="console.log('Edit')" aria-label="Edit Task" class="text-slate-400 hover:text-indigo-600 transition-colors">
+           <button 
+  data-testid="test-todo-edit-button" 
+  onclick="console.log('Edit')" 
+  aria-label="Edit Task" 
+  class="relative z-10 cursor-pointer p-2 text-slate-400 hover:text-indigo-600 transition-colors"
+>
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
             </button>
             <button data-testid="test-todo-delete-button" onclick="alert('Delete')" aria-label="Delete Task" class="text-slate-400 hover:text-rose-600 transition-colors">
