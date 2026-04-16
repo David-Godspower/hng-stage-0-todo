@@ -3,7 +3,7 @@
 A high-fidelity, accessible, and responsive Task Card component built for the HNG14 Stage 0 Frontend track.
 
 ## Live Demo
-- **Live URL:** [PASTE_YOUR_LIVE_LINK_HERE]
+- **Live URL:** [[LIVE LINK](https://hng-stage-0-todo-orpin.vercel.app/)]
 
 ## Features
 - **Semantic HTML:** Implements `<article>`, `<time>`, and proper heading structures.
